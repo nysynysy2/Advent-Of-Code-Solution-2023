@@ -17,8 +17,8 @@ int main() {
 		size_t power{ 1 };
 		unordered_map<string, size_t> min_num{ {"red", 1}, {"green", 1}, {"blue", 1}};
 		smatch game_res{};
-		regex game_regex{ "Game ([0-9]+):(.*)" };
-		regex color_regex{ " ([0-9]+) (blue|red|green)" };
+		regex game_regex{ "Game (\\d+):(.*)" };
+		regex color_regex{ " (\\d+) (blue|red|green)" };
 		
 		regex_match(buffer,game_res,game_regex);
 
