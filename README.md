@@ -6,4 +6,4 @@ C++20 Required
 
 DO NOT!!! Run the code in the debug mode or compile the program with -g (I've made this mistake and the performance is a piece of $hit)🤬
 
-If everything is fine it should give you the output in couple minutes😎 (Blazingly fast!)
+If everything is fine it should give you the output within only a minute😎 (Blazingly fast!)
